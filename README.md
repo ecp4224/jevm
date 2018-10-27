@@ -8,7 +8,7 @@ Documentation
 
 ```java
 //Make web3 object with some provider
-Web3 web3 = new Web3(new HttpProvider("https://mainnet.infura.io/v3/1fdd2db1469a4aae8909b8e4075ddc5c"));
+Web3 web3 = new Web3(new HttpProvider("https://mainnet.infura.io/v3/"));
 
 //Create interface class from web3 object
 ERC721Token token = web3.getContract(ERC721Token.class, "0x5CAeBd3b32e210E85CE3E9d51638B9C445481567");
